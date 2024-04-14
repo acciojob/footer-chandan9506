@@ -1,1 +1,73 @@
 /* your code here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+body{
+    font-family: acumin-pro, system-ui, sans-serif;
+    
+    color:white;
+    
+}
+.container{
+    background-color: black;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo_name{
+    padding:10px 0px 0px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+}
+.icons{
+    display: flex;
+   
+}
+.icon{
+    margin:5px 10px;
+    height:30px;
+    width:30px;
+    background-color: rgb(169, 30, 30);
+    color:white;
+    text-align: center;
+    border-radius: 50%;
+    padding:3px;
+    margin-top: 5px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-left: 10px;
+    
+}
+.menu{
+
+}
+.middle ul li{
+    list-style-type: none;
+}
+.middle ul p{
+    font-size: 20px;
+   
+    text-decoration:white underline;
+}
+li{
+    margin-top:10px;
+}
+.bottom{
+    background-color: #ffffff77;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    margin-top:30px;
+}
+.policy{
+    font-size:15px;
+}
