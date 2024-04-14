@@ -24,7 +24,7 @@ body{
     font-weight: 600;
     color:white;
 }
-.icons{
+.media-icons{
     display: flex;
    
 }
@@ -39,7 +39,7 @@ body{
     padding:3px;
     margin-top: 5px;
 }
-.middle{
+.link-boxes{
     display: flex;
     justify-content: space-between;
     margin-top: 18px;
@@ -49,10 +49,10 @@ body{
 .menu{
 
 }
-.middle ul li{
+.link-boxes ul li{
     list-style-type: none;
 }
-.middle ul p{
+.link-boxes ul p{
     font-size: 20px;
    
     text-decoration:white underline;
